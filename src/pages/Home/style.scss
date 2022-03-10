@@ -1,0 +1,37 @@
+.Home-Container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  .Content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .Request-Number {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 100%;
+      text-align: start;
+    }
+
+    .Doc-Wrapper {
+      width: 100%;
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "AddForm DocList";
+      grid-gap: 1rem;
+      #AddForm {
+        grid-area: "AddForm";
+      }
+
+      #DocList {
+        grid-area: "DocList";
+      }
+      @media screen and (max-width: 1050px) {
+        grid-template-columns: 1fr;
+        grid-template-areas: "AddForm" "DocList";
+      }
+    }
+  }
+}

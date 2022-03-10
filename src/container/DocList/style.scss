@@ -1,0 +1,24 @@
+.DocList-Container {
+  width: 100%;
+  max-width: 900px;
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  .Empty-Message {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+  }
+}
+
+.Cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+}

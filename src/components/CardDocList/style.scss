@@ -1,0 +1,27 @@
+.Doclist {
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  .Data {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-top: 1rem;
+    .Info-Data {
+      display: flex;
+      justify-content: space-between;
+
+      .Personal-Data {
+        width: 100%;
+      }
+      .Registry-Data {
+        width: 100%;
+        .Street {
+          display: flex;
+          justify-content: flex-start;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
