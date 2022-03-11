@@ -88,7 +88,6 @@ const AddDocForm = () => {
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Tipo de Pessoa:</Form.Label>
             <Form.Select
-              defaultValue={1}
               value={personalData.type}
               onChange={(e) => {
                 setPersonalInput({ type: e.target.value });
@@ -99,7 +98,7 @@ const AddDocForm = () => {
             </Form.Select>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>CPF:</Form.Label>
+            <Form.Label>{personalData.type === 1 ? "CPF:" : "CNPJ"}</Form.Label>
             <Form.Control
               required
               type="text"
@@ -111,7 +110,9 @@ const AddDocForm = () => {
             />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Nome Completo:</Form.Label>
+            <Form.Label>
+              {personalData.type === 1 ? "Nome Completo:" : "Razão social"}
+            </Form.Label>
             <Form.Control
               required
               type="text"
