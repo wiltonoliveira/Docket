@@ -12,8 +12,6 @@ const CardDocList = () => {
     getDocuments();
   }, []);
 
-  console.log(documents);
-
   return (
     <div className="Doclist">
       <h5>{documents.length} {documents.length !== 1 ? 'documentos solicitados' : 'documento solicitado'}</h5>

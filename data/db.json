@@ -1,6 +1,7 @@
 {
   "documents": [
     {
+      "id": 1,
       "docname": "Certidão de Nascimento",
       "personalData": {
         "type": 1,
@@ -13,9 +14,15 @@
         "number": 22,
         "city": "Salvador",
         "state": "BA"
+      },
+      "date": {
+        "day": 12,
+        "month": 3,
+        "year": 2022
       }
     },
     {
+      "id": 2,
       "docname": "",
       "personalData": {
         "type": "",
@@ -28,7 +35,93 @@
         "number": "",
         "city": "São Paulo",
         "state": "SP"
+      },
+      "date": {
+        "day": 12,
+        "month": 3,
+        "year": 2022
       }
+    },
+    {
+      "id": 3,
+      "docname": "nomeDoc",
+      "personalData": {
+        "type": 1,
+        "name": "nomeCompleto",
+        "documentNumber": "1111"
+      },
+      "registryData": {
+        "postCode": "123123",
+        "street": "ruas",
+        "number": "3",
+        "city": "salvador",
+        "state": "ba"
+      },
+      "date": {
+        "day": 11,
+        "month": 2,
+        "year": 2022
+      }
+    },
+    {
+      "docname": "",
+      "personalData": {
+        "type": 1,
+        "name": ""
+      },
+      "registryData": {
+        "postCode": "",
+        "street": "",
+        "number": 1,
+        "city": "",
+        "state": ""
+      },
+      "date": {
+        "day": 11,
+        "month": 2,
+        "year": 2022
+      },
+      "id": 4
+    },
+    {
+      "docname": "",
+      "personalData": {
+        "type": 1,
+        "name": ""
+      },
+      "registryData": {
+        "postCode": "",
+        "street": "",
+        "number": 1,
+        "city": "",
+        "state": ""
+      },
+      "date": {
+        "day": 11,
+        "month": 2,
+        "year": 2022
+      },
+      "id": 5
+    },
+    {
+      "docname": "",
+      "personalData": {
+        "type": "2",
+        "name": ""
+      },
+      "registryData": {
+        "postCode": "",
+        "street": "",
+        "number": 1,
+        "city": "",
+        "state": ""
+      },
+      "date": {
+        "day": 11,
+        "month": 2,
+        "year": 2022
+      },
+      "id": 6
     }
   ]
 }
