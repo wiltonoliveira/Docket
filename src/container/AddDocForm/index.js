@@ -63,9 +63,8 @@ const AddDocForm = () => {
         year: date.year,
       },
     };
-
-    // console.log(submit);
     api.post("/documents", submit);
+    window.location.reload();
   };
 
   return (

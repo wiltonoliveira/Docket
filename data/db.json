@@ -1,27 +1,6 @@
 {
   "documents": [
     {
-      "id": 1,
-      "docname": "Certidão de Nascimento",
-      "personalData": {
-        "type": 1,
-        "name": "João da Silva Santos",
-        "documentNumber": 84478222061
-      },
-      "registryData": {
-        "postCode": 41350405,
-        "street": "2ª Travessa do Retorno",
-        "number": 22,
-        "city": "Salvador",
-        "state": "BA"
-      },
-      "date": {
-        "day": 12,
-        "month": 3,
-        "year": 2022
-      }
-    },
-    {
       "id": 2,
       "docname": "",
       "personalData": {

@@ -7,6 +7,12 @@
     border-radius: 5px;
     padding: 2rem;
     margin-top: 1rem;
+
+    .Card-Title{
+      display: flex;
+      justify-content: space-between;
+    }
+
     .Info-Data {
       display: flex;
       justify-content: space-between;
